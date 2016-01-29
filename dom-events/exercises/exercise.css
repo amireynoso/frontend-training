@@ -20,7 +20,21 @@ html, body {
     padding: 5px;
     text-align: center;
 }
-
+.Personalities-personality a {
+	color: gray;
+}
+.Personalities-personality[data-selected] {
+	background-color: #eee;
+}
+.Personalities-personality[data-selected] a {
+	color: blue;
+}
 .PersonalitySelected {
     display: inline-block;
+    vertical-align: top;
+    margin-top: 25px;
+}
+.PersonalitySelected h1 {
+	margin: 0 0 10px;
+	font-size: 18px;
 }
